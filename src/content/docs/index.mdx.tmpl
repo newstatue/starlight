@@ -1,0 +1,11 @@
+---
+{{.Frontmatter}}
+---
+
+import { getEntry, render } from 'astro:content'
+
+export const home = await getEntry("home","index")
+
+export const HomeContent = home ? (await render(home)).Content : null
+
+{HomeContent && <HomeContent />}

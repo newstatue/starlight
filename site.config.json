@@ -1,0 +1,25 @@
+{
+  "title": "我的文档",
+  "sidebar": [
+    {
+      "label": "教程",
+      "items": [
+        {
+          "autogenerate": {
+            "directory": "guides"
+          }
+        }
+      ]
+    },
+    {
+      "label": "关于",
+      "items": [
+        {
+          "autogenerate": {
+            "directory": "reference"
+          }
+        }
+      ]
+    }
+  ]
+}
